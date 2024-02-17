@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "swhtOGJyIczrJF2LJ2bWKFpw2oFAWZKJL0W9ifG7ENSIS6Q0y4dDn+FkXmc9QKLm70OBqdZLpeE0Rdh2S6Orvg==",
+  "success": false,
+  "projectFilePath": "F:\\Code\\Csharp入门\\测试项目\\测试项目.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "项目 随机数 与 net6.0 (.NETCoreApp,Version=v6.0) 不兼容。 项目 随机数 支持: net7.0 (.NETCoreApp,Version=v7.0)",
+      "libraryId": "随机数",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

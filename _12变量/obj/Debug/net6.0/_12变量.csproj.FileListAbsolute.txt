@@ -1,0 +1,15 @@
+F:\Code\_12变量\obj\Debug\net6.0\_12变量.csproj.AssemblyReference.cache
+F:\Code\_12变量\obj\Debug\net6.0\_12变量.GeneratedMSBuildEditorConfig.editorconfig
+F:\Code\_12变量\obj\Debug\net6.0\_12变量.AssemblyInfoInputs.cache
+F:\Code\_12变量\obj\Debug\net6.0\_12变量.AssemblyInfo.cs
+F:\Code\_12变量\obj\Debug\net6.0\_12变量.csproj.CoreCompileInputs.cache
+F:\Code\_12变量\bin\Debug\net6.0\_12变量.exe
+F:\Code\_12变量\bin\Debug\net6.0\_12变量.deps.json
+F:\Code\_12变量\bin\Debug\net6.0\_12变量.runtimeconfig.json
+F:\Code\_12变量\bin\Debug\net6.0\_12变量.dll
+F:\Code\_12变量\bin\Debug\net6.0\_12变量.pdb
+F:\Code\_12变量\obj\Debug\net6.0\_12变量.dll
+F:\Code\_12变量\obj\Debug\net6.0\refint\_12变量.dll
+F:\Code\_12变量\obj\Debug\net6.0\_12变量.pdb
+F:\Code\_12变量\obj\Debug\net6.0\_12变量.genruntimeconfig.cache
+F:\Code\_12变量\obj\Debug\net6.0\ref\_12变量.dll

@@ -1,0 +1,15 @@
+F:\Code\Csharp入门\随机数\bin\Debug\net7.0\随机数.exe
+F:\Code\Csharp入门\随机数\bin\Debug\net7.0\随机数.deps.json
+F:\Code\Csharp入门\随机数\bin\Debug\net7.0\随机数.runtimeconfig.json
+F:\Code\Csharp入门\随机数\bin\Debug\net7.0\随机数.dll
+F:\Code\Csharp入门\随机数\bin\Debug\net7.0\随机数.pdb
+F:\Code\Csharp入门\随机数\obj\Debug\net7.0\随机数.csproj.AssemblyReference.cache
+F:\Code\Csharp入门\随机数\obj\Debug\net7.0\随机数.GeneratedMSBuildEditorConfig.editorconfig
+F:\Code\Csharp入门\随机数\obj\Debug\net7.0\随机数.AssemblyInfoInputs.cache
+F:\Code\Csharp入门\随机数\obj\Debug\net7.0\随机数.AssemblyInfo.cs
+F:\Code\Csharp入门\随机数\obj\Debug\net7.0\随机数.csproj.CoreCompileInputs.cache
+F:\Code\Csharp入门\随机数\obj\Debug\net7.0\随机数.dll
+F:\Code\Csharp入门\随机数\obj\Debug\net7.0\refint\随机数.dll
+F:\Code\Csharp入门\随机数\obj\Debug\net7.0\随机数.pdb
+F:\Code\Csharp入门\随机数\obj\Debug\net7.0\随机数.genruntimeconfig.cache
+F:\Code\Csharp入门\随机数\obj\Debug\net7.0\ref\随机数.dll

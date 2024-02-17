@@ -1,0 +1,15 @@
+F:\Code\Csharp入门\循环switch\bin\Debug\net7.0\循环switch.exe
+F:\Code\Csharp入门\循环switch\bin\Debug\net7.0\循环switch.deps.json
+F:\Code\Csharp入门\循环switch\bin\Debug\net7.0\循环switch.runtimeconfig.json
+F:\Code\Csharp入门\循环switch\bin\Debug\net7.0\循环switch.dll
+F:\Code\Csharp入门\循环switch\bin\Debug\net7.0\循环switch.pdb
+F:\Code\Csharp入门\循环switch\obj\Debug\net7.0\循环switch.csproj.AssemblyReference.cache
+F:\Code\Csharp入门\循环switch\obj\Debug\net7.0\循环switch.GeneratedMSBuildEditorConfig.editorconfig
+F:\Code\Csharp入门\循环switch\obj\Debug\net7.0\循环switch.AssemblyInfoInputs.cache
+F:\Code\Csharp入门\循环switch\obj\Debug\net7.0\循环switch.AssemblyInfo.cs
+F:\Code\Csharp入门\循环switch\obj\Debug\net7.0\循环switch.csproj.CoreCompileInputs.cache
+F:\Code\Csharp入门\循环switch\obj\Debug\net7.0\循环switch.dll
+F:\Code\Csharp入门\循环switch\obj\Debug\net7.0\refint\循环switch.dll
+F:\Code\Csharp入门\循环switch\obj\Debug\net7.0\循环switch.pdb
+F:\Code\Csharp入门\循环switch\obj\Debug\net7.0\循环switch.genruntimeconfig.cache
+F:\Code\Csharp入门\循环switch\obj\Debug\net7.0\ref\循环switch.dll
