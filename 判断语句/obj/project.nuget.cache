@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZcAmHrHhuQCIKozQApS3z5uvkTSJaHZRSpENSIOb8IFoP42y+ZI8mInoiqbDUko9m5+gw+umqs7i6dBNDL3Cow==",
-  "success": false,
+  "dgSpecHash": "TpXkNCV4GSiU0KaYMjWg/e+maRldyzvDDYjRvk6HDv4bBewPOSj1nUmWBl2BjWsHYHn6tK5HtvC3cm246qOczg==",
+  "success": true,
   "projectFilePath": "F:\\Code\\Csharp入门\\判断语句\\判断语句.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "项目 循环DoWhile 与 net6.0 (.NETCoreApp,Version=v6.0) 不兼容。 项目 循环DoWhile 支持: net7.0 (.NETCoreApp,Version=v7.0)",
-      "libraryId": "循环DoWhile",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

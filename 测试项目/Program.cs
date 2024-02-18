@@ -15,7 +15,12 @@ namespace 测试项目
             //主函数——一个程序的主入口
             
             Console.WriteLine("Hello, World!");
- 
+            
+                int a = 1, b = 2, c = a + b;
+            a = 2;
+            Console.WriteLine(c);
+            
+
         }
     }
 }
