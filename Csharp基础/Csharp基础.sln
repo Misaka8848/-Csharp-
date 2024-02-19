@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "枚举", "枚举\枚举.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "枚举习题", "枚举习题\枚举习题.csproj", "{5E6538A9-484B-4554-ABAE-461C7287F6D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数组", "数组\数组.csproj", "{3DDF6930-DB9A-43E1-83E7-2BA37A2B8CE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5E6538A9-484B-4554-ABAE-461C7287F6D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E6538A9-484B-4554-ABAE-461C7287F6D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E6538A9-484B-4554-ABAE-461C7287F6D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DDF6930-DB9A-43E1-83E7-2BA37A2B8CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DDF6930-DB9A-43E1-83E7-2BA37A2B8CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DDF6930-DB9A-43E1-83E7-2BA37A2B8CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DDF6930-DB9A-43E1-83E7-2BA37A2B8CE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
