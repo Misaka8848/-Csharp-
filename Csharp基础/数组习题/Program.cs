@@ -33,15 +33,18 @@
             #endregion
             #region 习题4
             int[] arr4 = new int[20];
-            int avg = 0, min = 0, max = 0, sum = 0;
+            int avg = 0, min = int.MaxValue, max = int.MinValue, sum = 0;
             for (int i = 0; i < arr4.Length; i++)
             {
                 arr4[i] = r.Next(1, 101);
                 sum += arr4[i];
-                if (i >= 1)
+                if (arr4[i] < min)
                 {
-                    max = arr4[i] > arr4[i - 1] ? arr4[i] : arr4[i - 1];
-                    min = arr4[i] < arr4[i - 1] ? arr4[i] : arr4[i - 1];
+                    min = arr4[i];
+                }
+                if (arr4[i] > max)
+                {
+                    max = arr4[i];
                 }
             }
             avg = sum / arr4.Length;
@@ -94,7 +97,7 @@
             //7. 定义一个有10个元素的数组，使用for循环，输入10名同学的数学成绩，将成绩依次存入数组，然后分别求出最高分和最低分，并且求出10名同学的数学平均成绩
             int[] arr7 = new int[10];
             string userInput = " ";
-            int min7 = 0, max7 = 0, avg7 = 0, sum7 = 0;
+            int min7 = int.MaxValue, max7 = int.MinValue, avg7 = 0, sum7 = 0;
             for (int i = 0; i < arr7.Length; i++)
             {
                 while (true)
@@ -114,12 +117,16 @@
                     }
                 }
                 sum7 += arr7[i];
-                if (i >= 1)
+                if (arr7[i] > max)
                 {
-                    max7 = arr7[i] > arr7[i - 1] ? arr7[i] : arr7[i - 1];
-                    min7 = arr7[i] < arr7[i - 1] ? arr7[i] : arr7[i - 1];
+                    max7 = arr7[i];
+                }
+                if (arr7[i] < min)
+                {
+                    min7 = arr7[i];
                 }
             }
+            avg7 = sum7 / arr7.Length;
 
             #endregion
             #region 习题8
@@ -139,7 +146,7 @@
                 {
                     arr8[i] = "■";
                 }
-                Console.WriteLine(arr8[i]);
+                Console.Write(arr8[i]);
 
             }
             #endregion
