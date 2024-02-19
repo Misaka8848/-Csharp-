@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "81i8ueZdkTyWh+9UlBINY7qtrulJNahjR/lqUDqx/hLPSfZ68r2BG4x8Y1M86sUkFFUTUeaqwERi/318GFr+6A==",
+  "dgSpecHash": "OHt9+XC7j7ONTpLSyZAgdjBEhJ5XJKh1KyKPCZY3QxnhoXBGWPh9mvJ6goGr41iV7G5szk5OFubA2BMlOQPRtA==",
   "success": true,
-  "projectFilePath": "F:\\Code\\Csharp入门\\26异常捕获\\26异常捕获.csproj",
+  "projectFilePath": "F:\\Code\\唐老狮C#\\Csharp入门\\26异常捕获\\26异常捕获.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

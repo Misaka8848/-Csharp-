@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Code\\Csharp入门\\循环For\\循环For.csproj": {}
+    "F:\\Code\\唐老狮C#\\Csharp入门\\循环For\\循环For.csproj": {}
   },
   "projects": {
-    "F:\\Code\\Csharp入门\\循环For\\循环For.csproj": {
+    "F:\\Code\\唐老狮C#\\Csharp入门\\循环For\\循环For.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Code\\Csharp入门\\循环For\\循环For.csproj",
+        "projectUniqueName": "F:\\Code\\唐老狮C#\\Csharp入门\\循环For\\循环For.csproj",
         "projectName": "循环For",
-        "projectPath": "F:\\Code\\Csharp入门\\循环For\\循环For.csproj",
+        "projectPath": "F:\\Code\\唐老狮C#\\Csharp入门\\循环For\\循环For.csproj",
         "packagesPath": "C:\\Users\\Alter\\.nuget\\packages\\",
-        "outputPath": "F:\\Code\\Csharp入门\\循环For\\obj\\",
+        "outputPath": "F:\\Code\\唐老狮C#\\Csharp入门\\循环For\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

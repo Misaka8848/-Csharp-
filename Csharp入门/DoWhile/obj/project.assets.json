@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Code\\Csharp入门\\DoWhile\\循环DoWhile.csproj",
+      "projectUniqueName": "F:\\Code\\唐老狮C#\\Csharp入门\\DoWhile\\循环DoWhile.csproj",
       "projectName": "循环DoWhile",
-      "projectPath": "F:\\Code\\Csharp入门\\DoWhile\\循环DoWhile.csproj",
+      "projectPath": "F:\\Code\\唐老狮C#\\Csharp入门\\DoWhile\\循环DoWhile.csproj",
       "packagesPath": "C:\\Users\\Alter\\.nuget\\packages\\",
-      "outputPath": "F:\\Code\\Csharp入门\\DoWhile\\obj\\",
+      "outputPath": "F:\\Code\\唐老狮C#\\Csharp入门\\DoWhile\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

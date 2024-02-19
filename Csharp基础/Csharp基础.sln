@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "枚举", "枚举\枚举.csproj", "{49350959-3B38-4B3C-9E1D-C2E16C521DB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "枚举习题", "枚举习题\枚举习题.csproj", "{5E6538A9-484B-4554-ABAE-461C7287F6D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49350959-3B38-4B3C-9E1D-C2E16C521DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49350959-3B38-4B3C-9E1D-C2E16C521DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49350959-3B38-4B3C-9E1D-C2E16C521DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49350959-3B38-4B3C-9E1D-C2E16C521DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E6538A9-484B-4554-ABAE-461C7287F6D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E6538A9-484B-4554-ABAE-461C7287F6D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E6538A9-484B-4554-ABAE-461C7287F6D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E6538A9-484B-4554-ABAE-461C7287F6D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01CDCEAF-B0EE-430C-8F70-39436E766710}
+	EndGlobalSection
+EndGlobal

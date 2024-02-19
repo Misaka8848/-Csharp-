@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Code\\Csharp入门\\判断语句\\判断语句.csproj": {}
+    "F:\\Code\\唐老狮C#\\Csharp入门\\判断语句\\判断语句.csproj": {}
   },
   "projects": {
-    "F:\\Code\\Csharp入门\\DoWhile\\循环DoWhile.csproj": {
+    "F:\\Code\\唐老狮C#\\Csharp入门\\DoWhile\\循环DoWhile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Code\\Csharp入门\\DoWhile\\循环DoWhile.csproj",
+        "projectUniqueName": "F:\\Code\\唐老狮C#\\Csharp入门\\DoWhile\\循环DoWhile.csproj",
         "projectName": "循环DoWhile",
-        "projectPath": "F:\\Code\\Csharp入门\\DoWhile\\循环DoWhile.csproj",
+        "projectPath": "F:\\Code\\唐老狮C#\\Csharp入门\\DoWhile\\循环DoWhile.csproj",
         "packagesPath": "C:\\Users\\Alter\\.nuget\\packages\\",
-        "outputPath": "F:\\Code\\Csharp入门\\DoWhile\\obj\\",
+        "outputPath": "F:\\Code\\唐老狮C#\\Csharp入门\\DoWhile\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -64,14 +64,14 @@
         }
       }
     },
-    "F:\\Code\\Csharp入门\\判断语句\\判断语句.csproj": {
+    "F:\\Code\\唐老狮C#\\Csharp入门\\判断语句\\判断语句.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Code\\Csharp入门\\判断语句\\判断语句.csproj",
+        "projectUniqueName": "F:\\Code\\唐老狮C#\\Csharp入门\\判断语句\\判断语句.csproj",
         "projectName": "判断语句",
-        "projectPath": "F:\\Code\\Csharp入门\\判断语句\\判断语句.csproj",
+        "projectPath": "F:\\Code\\唐老狮C#\\Csharp入门\\判断语句\\判断语句.csproj",
         "packagesPath": "C:\\Users\\Alter\\.nuget\\packages\\",
-        "outputPath": "F:\\Code\\Csharp入门\\判断语句\\obj\\",
+        "outputPath": "F:\\Code\\唐老狮C#\\Csharp入门\\判断语句\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -93,8 +93,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "F:\\Code\\Csharp入门\\DoWhile\\循环DoWhile.csproj": {
-                "projectPath": "F:\\Code\\Csharp入门\\DoWhile\\循环DoWhile.csproj"
+              "F:\\Code\\唐老狮C#\\Csharp入门\\DoWhile\\循环DoWhile.csproj": {
+                "projectPath": "F:\\Code\\唐老狮C#\\Csharp入门\\DoWhile\\循环DoWhile.csproj"
               }
             }
           }

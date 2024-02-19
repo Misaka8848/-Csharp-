@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Code\\Csharp入门\\控制台补充\\控制台补充.csproj": {}
+    "F:\\Code\\唐老狮C#\\Csharp入门\\控制台补充\\控制台补充.csproj": {}
   },
   "projects": {
-    "F:\\Code\\Csharp入门\\控制台习题\\控制台习题.csproj": {
+    "F:\\Code\\唐老狮C#\\Csharp入门\\控制台习题\\控制台习题.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Code\\Csharp入门\\控制台习题\\控制台习题.csproj",
+        "projectUniqueName": "F:\\Code\\唐老狮C#\\Csharp入门\\控制台习题\\控制台习题.csproj",
         "projectName": "控制台习题",
-        "projectPath": "F:\\Code\\Csharp入门\\控制台习题\\控制台习题.csproj",
+        "projectPath": "F:\\Code\\唐老狮C#\\Csharp入门\\控制台习题\\控制台习题.csproj",
         "packagesPath": "C:\\Users\\Alter\\.nuget\\packages\\",
-        "outputPath": "F:\\Code\\Csharp入门\\控制台习题\\obj\\",
+        "outputPath": "F:\\Code\\唐老狮C#\\Csharp入门\\控制台习题\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "F:\\Code\\Csharp入门\\随机数\\随机数.csproj": {
-                "projectPath": "F:\\Code\\Csharp入门\\随机数\\随机数.csproj"
+              "F:\\Code\\唐老狮C#\\Csharp入门\\随机数\\随机数.csproj": {
+                "projectPath": "F:\\Code\\唐老狮C#\\Csharp入门\\随机数\\随机数.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "F:\\Code\\Csharp入门\\控制台补充\\控制台补充.csproj": {
+    "F:\\Code\\唐老狮C#\\Csharp入门\\控制台补充\\控制台补充.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Code\\Csharp入门\\控制台补充\\控制台补充.csproj",
+        "projectUniqueName": "F:\\Code\\唐老狮C#\\Csharp入门\\控制台补充\\控制台补充.csproj",
         "projectName": "控制台补充",
-        "projectPath": "F:\\Code\\Csharp入门\\控制台补充\\控制台补充.csproj",
+        "projectPath": "F:\\Code\\唐老狮C#\\Csharp入门\\控制台补充\\控制台补充.csproj",
         "packagesPath": "C:\\Users\\Alter\\.nuget\\packages\\",
-        "outputPath": "F:\\Code\\Csharp入门\\控制台补充\\obj\\",
+        "outputPath": "F:\\Code\\唐老狮C#\\Csharp入门\\控制台补充\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,8 +97,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "F:\\Code\\Csharp入门\\控制台习题\\控制台习题.csproj": {
-                "projectPath": "F:\\Code\\Csharp入门\\控制台习题\\控制台习题.csproj"
+              "F:\\Code\\唐老狮C#\\Csharp入门\\控制台习题\\控制台习题.csproj": {
+                "projectPath": "F:\\Code\\唐老狮C#\\Csharp入门\\控制台习题\\控制台习题.csproj"
               }
             }
           }
@@ -132,14 +132,14 @@
         }
       }
     },
-    "F:\\Code\\Csharp入门\\随机数\\随机数.csproj": {
+    "F:\\Code\\唐老狮C#\\Csharp入门\\随机数\\随机数.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Code\\Csharp入门\\随机数\\随机数.csproj",
+        "projectUniqueName": "F:\\Code\\唐老狮C#\\Csharp入门\\随机数\\随机数.csproj",
         "projectName": "随机数",
-        "projectPath": "F:\\Code\\Csharp入门\\随机数\\随机数.csproj",
+        "projectPath": "F:\\Code\\唐老狮C#\\Csharp入门\\随机数\\随机数.csproj",
         "packagesPath": "C:\\Users\\Alter\\.nuget\\packages\\",
-        "outputPath": "F:\\Code\\Csharp入门\\随机数\\obj\\",
+        "outputPath": "F:\\Code\\唐老狮C#\\Csharp入门\\随机数\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
