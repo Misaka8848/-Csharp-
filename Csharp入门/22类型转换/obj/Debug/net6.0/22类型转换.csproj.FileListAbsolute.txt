@@ -1,0 +1,15 @@
+F:\Code\Csharp入门\22类型转换\bin\Debug\net6.0\22类型转换.exe
+F:\Code\Csharp入门\22类型转换\bin\Debug\net6.0\22类型转换.deps.json
+F:\Code\Csharp入门\22类型转换\bin\Debug\net6.0\22类型转换.runtimeconfig.json
+F:\Code\Csharp入门\22类型转换\bin\Debug\net6.0\22类型转换.dll
+F:\Code\Csharp入门\22类型转换\bin\Debug\net6.0\22类型转换.pdb
+F:\Code\Csharp入门\22类型转换\obj\Debug\net6.0\22类型转换.csproj.AssemblyReference.cache
+F:\Code\Csharp入门\22类型转换\obj\Debug\net6.0\22类型转换.GeneratedMSBuildEditorConfig.editorconfig
+F:\Code\Csharp入门\22类型转换\obj\Debug\net6.0\22类型转换.AssemblyInfoInputs.cache
+F:\Code\Csharp入门\22类型转换\obj\Debug\net6.0\22类型转换.AssemblyInfo.cs
+F:\Code\Csharp入门\22类型转换\obj\Debug\net6.0\22类型转换.csproj.CoreCompileInputs.cache
+F:\Code\Csharp入门\22类型转换\obj\Debug\net6.0\22类型转换.dll
+F:\Code\Csharp入门\22类型转换\obj\Debug\net6.0\refint\22类型转换.dll
+F:\Code\Csharp入门\22类型转换\obj\Debug\net6.0\22类型转换.pdb
+F:\Code\Csharp入门\22类型转换\obj\Debug\net6.0\22类型转换.genruntimeconfig.cache
+F:\Code\Csharp入门\22类型转换\obj\Debug\net6.0\ref\22类型转换.dll

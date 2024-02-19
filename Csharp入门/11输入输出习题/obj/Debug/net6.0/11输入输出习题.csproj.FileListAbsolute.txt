@@ -1,0 +1,15 @@
+F:\Code\11输入输出习题\obj\Debug\net6.0\11输入输出习题.csproj.AssemblyReference.cache
+F:\Code\11输入输出习题\obj\Debug\net6.0\11输入输出习题.GeneratedMSBuildEditorConfig.editorconfig
+F:\Code\11输入输出习题\obj\Debug\net6.0\11输入输出习题.AssemblyInfoInputs.cache
+F:\Code\11输入输出习题\obj\Debug\net6.0\11输入输出习题.AssemblyInfo.cs
+F:\Code\11输入输出习题\obj\Debug\net6.0\11输入输出习题.csproj.CoreCompileInputs.cache
+F:\Code\11输入输出习题\bin\Debug\net6.0\11输入输出习题.exe
+F:\Code\11输入输出习题\bin\Debug\net6.0\11输入输出习题.deps.json
+F:\Code\11输入输出习题\bin\Debug\net6.0\11输入输出习题.runtimeconfig.json
+F:\Code\11输入输出习题\bin\Debug\net6.0\11输入输出习题.dll
+F:\Code\11输入输出习题\bin\Debug\net6.0\11输入输出习题.pdb
+F:\Code\11输入输出习题\obj\Debug\net6.0\11输入输出习题.dll
+F:\Code\11输入输出习题\obj\Debug\net6.0\refint\11输入输出习题.dll
+F:\Code\11输入输出习题\obj\Debug\net6.0\11输入输出习题.pdb
+F:\Code\11输入输出习题\obj\Debug\net6.0\11输入输出习题.genruntimeconfig.cache
+F:\Code\11输入输出习题\obj\Debug\net6.0\ref\11输入输出习题.dll

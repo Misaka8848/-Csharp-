@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "控制台习题/1.0.0": {
+        "dependencies": {
+          "随机数": "1.0.0"
+        },
+        "runtime": {
+          "控制台习题.dll": {}
+        }
+      },
+      "随机数/1.0.0": {
+        "runtime": {
+          "随机数.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "控制台习题/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "随机数/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+F:\Code\Csharp入门\26异常捕获\bin\Debug\net6.0\26异常捕获.exe
+F:\Code\Csharp入门\26异常捕获\bin\Debug\net6.0\26异常捕获.deps.json
+F:\Code\Csharp入门\26异常捕获\bin\Debug\net6.0\26异常捕获.runtimeconfig.json
+F:\Code\Csharp入门\26异常捕获\bin\Debug\net6.0\26异常捕获.dll
+F:\Code\Csharp入门\26异常捕获\bin\Debug\net6.0\26异常捕获.pdb
+F:\Code\Csharp入门\26异常捕获\obj\Debug\net6.0\26异常捕获.csproj.AssemblyReference.cache
+F:\Code\Csharp入门\26异常捕获\obj\Debug\net6.0\26异常捕获.GeneratedMSBuildEditorConfig.editorconfig
+F:\Code\Csharp入门\26异常捕获\obj\Debug\net6.0\26异常捕获.AssemblyInfoInputs.cache
+F:\Code\Csharp入门\26异常捕获\obj\Debug\net6.0\26异常捕获.AssemblyInfo.cs
+F:\Code\Csharp入门\26异常捕获\obj\Debug\net6.0\26异常捕获.csproj.CoreCompileInputs.cache
+F:\Code\Csharp入门\26异常捕获\obj\Debug\net6.0\26异常捕获.dll
+F:\Code\Csharp入门\26异常捕获\obj\Debug\net6.0\refint\26异常捕获.dll
+F:\Code\Csharp入门\26异常捕获\obj\Debug\net6.0\26异常捕获.pdb
+F:\Code\Csharp入门\26异常捕获\obj\Debug\net6.0\26异常捕获.genruntimeconfig.cache
+F:\Code\Csharp入门\26异常捕获\obj\Debug\net6.0\ref\26异常捕获.dll
