@@ -104,9 +104,9 @@
                     break;
                 }
 
-                Console.WriteLine("输入有误,请输入:中杯，大杯或者超大杯");
+                Console.WriteLine("输入有误,请输入:中杯:middle，大杯large或者超大杯exlarge");
             } while (true);
-            Coffee = (E_Coffee)Enum.Parse(typeof(E_Coffee), userInput2);
+            Coffee = (E_Coffee)Enum.Parse(typeof(E_Coffee), userInput2); // 注意用户输入的是中文, 成员名是英文
 
             Console.WriteLine($"你购买的是{Coffee}, 花费{(int)Coffee}元");
 
