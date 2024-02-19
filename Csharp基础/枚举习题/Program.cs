@@ -2,8 +2,14 @@
 {
     internal class Program
     {
+        /// <summary>
+        /// QQ状态
+        /// </summary>
         enum E_QStatus
         {
+            /// <summary>
+            /// 在线
+            /// </summary>
             Online,
             Invisible,
             Busy,
@@ -13,8 +19,10 @@
         {
             middle = 35,
             large = 40,
-            exlarge = 32
+            exlarge = 43
         }
+
+        #region 第三题不好版本
         enum E_male
         {
             atkPlus = 50,
@@ -43,6 +51,18 @@
             defPlus = 30,
             skill = 2
         }
+        #endregion
+        enum E_Gender
+        {
+            male,
+            female,
+        }
+        enum E_Class
+        {
+            Worrior,
+            Mage,
+            Hunter
+        }
         static void Main(string[] args)
         {
 
@@ -51,31 +71,20 @@
             //1. 定义QQ状态的枚举，并提示用户选择一个在线状态，我们接受输入的数字，并将其转换成枚举类型
 
             string userInput;
-            bool isQuit = false;
             int inputStatus;
             E_QStatus userStatus = E_QStatus.Busy;
-            while (!isQuit)
+            while (true)
             {
                 Console.Clear();
                 Console.WriteLine("选择一个状态, 0:在线, 1:隐身, 2:在忙,3:Q我吧");
                 userInput = Console.ReadLine();
-                inputStatus = int.Parse(userInput);
-
-
-
-                userStatus = E_QStatus.Online;
-
-                switch (inputStatus)
+                if (userInput == "0" || userInput == "1" || userInput == "2" || userInput == "3")
                 {
-                    case 0: userStatus = E_QStatus.Online; isQuit = true; break;
-                    case 1: userStatus = E_QStatus.Invisible; isQuit = true; break;
-                    case 2: userStatus = E_QStatus.Busy; isQuit = true; break;
-                    case 3: userStatus = E_QStatus.Chatme; isQuit = true; break;
-                    default: Console.WriteLine("输入有误 "); isQuit = false; break;
-
+                    break;
                 }
 
             }
+            userStatus = (E_QStatus)int.Parse(userInput);
 
             Console.WriteLine($"你的状态是{userStatus}");
 
@@ -88,19 +97,17 @@
             // 输入检查
             do
             {
+                Console.WriteLine("请输入你要购买的咖啡:中杯(35元)，大杯(40元)，超大杯(43元)");
                 userInput2 = Console.ReadLine();
                 if (userInput2 == "中杯" || userInput2 == "大杯" || userInput2 == "超大杯")
                 {
                     break;
                 }
 
+                Console.WriteLine("输入有误,请输入:中杯，大杯或者超大杯");
             } while (true);
-            switch (userInput2)
-            {
-                case "中杯": Coffee = E_Coffee.middle; break;
-                case "大杯": Coffee = E_Coffee.large; break;
-                case "超大杯": Coffee = E_Coffee.exlarge; break;
-            }
+            Coffee = (E_Coffee)Enum.Parse(typeof(E_Coffee), userInput2);
+
             Console.WriteLine($"你购买的是{Coffee}, 花费{(int)Coffee}元");
 
             #endregion
@@ -116,33 +123,100 @@
             //  法师(攻击力 + 200，防御力 + 10，技能：奥术冲击)
             //  举例打印：你选择了“女性法师”，攻击力：350，防御力：30，职业
             //  技能：奥术冲击
-            int playerAtk = 0, playerDef = 0, playerSkillCode = 0;
-            string playerClass = " ";
-            string playerinput = " ";
+            int playerAtk = 0, playerDef = 0;
+            string playerSkill = " ";
+            string playerInput = " ";
+            E_Gender G = E_Gender.female;
+            E_Class C = E_Class.Worrior;
             Console.WriteLine("输入你的性别");
-            playerinput = Console.ReadLine();
-            switch (playerinput)
+
+            playerInput = Console.ReadLine();
+
+            G = (E_Gender)Enum.Parse(typeof(E_Gender), playerInput);
+            switch (G)
             {
-                case "男":
+                case E_Gender.male:
                     playerAtk += (int)E_male.atkPlus;
                     playerDef += (int)E_male.defPlus;
                     break;
-
-                default:
+                case E_Gender.female:
                     playerAtk += (int)E_female.atkPlus;
                     playerDef += (int)E_female.defPlus;
                     break;
-            }
-            Console.WriteLine("输入你的职业");
-            playerinput = Console.ReadLine();
-            switch (playerinput)
-            {
-                case "战士":
-                    playerAtk += (int)E_playerClassWorrior.atkPlus;
-                    playerDef += (int)E_playerClassWorrior.defPlus;
+                default:
                     break;
             }
-            Console.WriteLine($"你的攻击力是{playerAtk}, 防御力是{playerDef},职业是{playerClass} ");
+            Console.WriteLine("输入你的职业");
+            playerInput = Console.ReadLine();
+            C = (E_Class)Enum.Parse(typeof(E_Class), playerInput);
+            switch (C)
+            {
+                case E_Class.Worrior:
+                    playerAtk += (int)E_playerClassWorrior.atkPlus;
+                    playerDef += (int)E_playerClassWorrior.defPlus;
+                    playerSkill = "冲锋";
+                    break;
+                case E_Class.Mage:
+                    playerAtk += (int)E_playerClassMage.atkPlus;
+                    playerDef += (int)E_playerClassMage.defPlus;
+                    playerSkill = "奥术冲击";
+                    break;
+                case E_Class.Hunter:
+                    playerAtk += (int)E_playerClassHunter.atkPlus;
+                    playerDef += (int)E_playerClassHunter.defPlus;
+                    playerSkill = "假死";
+                    break;
+                default:
+                    break;
+            }
+            Console.WriteLine($"你选择了{G}性{C},攻击力:{playerAtk}, 防御力:{playerDef},技能是:{playerSkill}");
+
+            #region 不太好的版本
+            //不太好的版本
+            //Console.WriteLine("输入你的性别");
+            //playerinput = Console.ReadLine();
+            //switch (playerinput)
+            //{
+            //    case "男":
+            //        playerAtk += (int)E_male.atkPlus;
+            //        playerDef += (int)E_male.defPlus;
+            //        break;
+
+            //    default:
+            //        playerAtk += (int)E_female.atkPlus;
+            //        playerDef += (int)E_female.defPlus;
+            //        break;
+            //}
+            //Console.WriteLine("输入你的职业");
+            //playerinput = Console.ReadLine();
+            //playerClass = playerinput;
+            //switch (playerinput)
+            //{
+            //    case "战士":
+            //        playerAtk += (int)E_playerClassWorrior.atkPlus;
+            //        playerDef += (int)E_playerClassWorrior.defPlus;
+            //        playerSkillCode = (int)E_playerClassWorrior.skill;
+            //        break;
+            //    case "法师":
+            //        playerAtk += (int)E_playerClassMage.atkPlus;
+            //        playerDef += (int)E_playerClassMage.defPlus;
+            //        playerSkillCode = (int)E_playerClassMage.skill;
+            //        break;
+            //    default:
+            //        playerAtk += (int)E_playerClassHunter.atkPlus;
+            //        playerDef += (int)E_playerClassHunter.defPlus;
+            //        playerSkillCode = (int)E_playerClassHunter.skill;
+            //        break;
+            //}
+            //switch (playerSkillCode)
+            //{
+            //    case 0:playerSkill = "冲锋";break;
+            //    case 1: playerSkill = "奥术冲击"; break;
+            //    case 2: playerSkill = "假死"; break;
+            //}
+            //Console.WriteLine($"你选择了{playerClass},你的攻击力是{playerAtk}, 防御力是{playerDef},技能是{playerSkill} ");
+            #endregion
+
             #endregion
             #region 4   
 
