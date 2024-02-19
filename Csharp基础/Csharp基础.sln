@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "枚举习题", "枚举习�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数组", "数组\数组.csproj", "{3DDF6930-DB9A-43E1-83E7-2BA37A2B8CE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "数组习题", "数组习题\数组习题.csproj", "{9B11CEEA-2DE0-4EFF-BDA3-BD56C57C058F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "习题模板", "习题模板\习题模板.csproj", "{FFA71FF3-BABF-47EF-B9F8-A0F0E49E8975}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{3DDF6930-DB9A-43E1-83E7-2BA37A2B8CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DDF6930-DB9A-43E1-83E7-2BA37A2B8CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DDF6930-DB9A-43E1-83E7-2BA37A2B8CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B11CEEA-2DE0-4EFF-BDA3-BD56C57C058F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B11CEEA-2DE0-4EFF-BDA3-BD56C57C058F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B11CEEA-2DE0-4EFF-BDA3-BD56C57C058F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B11CEEA-2DE0-4EFF-BDA3-BD56C57C058F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA71FF3-BABF-47EF-B9F8-A0F0E49E8975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA71FF3-BABF-47EF-B9F8-A0F0E49E8975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA71FF3-BABF-47EF-B9F8-A0F0E49E8975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA71FF3-BABF-47EF-B9F8-A0F0E49E8975}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
