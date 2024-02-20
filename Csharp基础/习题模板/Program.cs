@@ -12,7 +12,9 @@
             {
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("输入想要运行的题目序号,输入F退出,回车确认");
+
                 userInput = Console.ReadLine();
+                Console.Clear();
                 if (userInput == "f" || userInput == "F") { break; }
                 activeTest = int.Parse(userInput);
                 switch (activeTest)
@@ -20,24 +22,7 @@
                     case 1:
                         {
                             #region 习题1
-                            string[] arr8 = new string[25];
-                            for (int i = 0; i < arr8.Length; i++)
-                            {
-                                if (i % 5 == 0)
-                                {
-                                    Console.Write("\n");
-                                }
-                                if ((i + 1) % 2 == 1)
-                                {
-                                    arr8[i] = "■";
-                                }
-                                else
-                                {
-                                    arr8[i] = "□";
-                                }
-                                Console.Write(arr8[i]);
 
-                            }
                             #endregion
                         }
 
