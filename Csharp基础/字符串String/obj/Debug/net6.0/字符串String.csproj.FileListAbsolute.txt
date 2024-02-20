@@ -1,0 +1,15 @@
+F:\Code\唐老狮C#\Csharp基础\字符串String\bin\Debug\net6.0\字符串String.exe
+F:\Code\唐老狮C#\Csharp基础\字符串String\bin\Debug\net6.0\字符串String.deps.json
+F:\Code\唐老狮C#\Csharp基础\字符串String\bin\Debug\net6.0\字符串String.runtimeconfig.json
+F:\Code\唐老狮C#\Csharp基础\字符串String\bin\Debug\net6.0\字符串String.dll
+F:\Code\唐老狮C#\Csharp基础\字符串String\bin\Debug\net6.0\字符串String.pdb
+F:\Code\唐老狮C#\Csharp基础\字符串String\obj\Debug\net6.0\字符串String.csproj.AssemblyReference.cache
+F:\Code\唐老狮C#\Csharp基础\字符串String\obj\Debug\net6.0\字符串String.GeneratedMSBuildEditorConfig.editorconfig
+F:\Code\唐老狮C#\Csharp基础\字符串String\obj\Debug\net6.0\字符串String.AssemblyInfoInputs.cache
+F:\Code\唐老狮C#\Csharp基础\字符串String\obj\Debug\net6.0\字符串String.AssemblyInfo.cs
+F:\Code\唐老狮C#\Csharp基础\字符串String\obj\Debug\net6.0\字符串String.csproj.CoreCompileInputs.cache
+F:\Code\唐老狮C#\Csharp基础\字符串String\obj\Debug\net6.0\字符串String.dll
+F:\Code\唐老狮C#\Csharp基础\字符串String\obj\Debug\net6.0\refint\字符串String.dll
+F:\Code\唐老狮C#\Csharp基础\字符串String\obj\Debug\net6.0\字符串String.pdb
+F:\Code\唐老狮C#\Csharp基础\字符串String\obj\Debug\net6.0\字符串String.genruntimeconfig.cache
+F:\Code\唐老狮C#\Csharp基础\字符串String\obj\Debug\net6.0\ref\字符串String.dll

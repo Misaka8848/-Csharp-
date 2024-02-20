@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "交错数组", "交错数�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "算法题目", "算法题目\算法题目.csproj", "{5F56E541-83D7-43CC-9CC6-D329DE9070B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "字符串String", "字符串String\字符串String.csproj", "{759FEE66-ED4D-49B1-A030-135CEB44FEB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{5F56E541-83D7-43CC-9CC6-D329DE9070B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F56E541-83D7-43CC-9CC6-D329DE9070B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F56E541-83D7-43CC-9CC6-D329DE9070B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{759FEE66-ED4D-49B1-A030-135CEB44FEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{759FEE66-ED4D-49B1-A030-135CEB44FEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{759FEE66-ED4D-49B1-A030-135CEB44FEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{759FEE66-ED4D-49B1-A030-135CEB44FEB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

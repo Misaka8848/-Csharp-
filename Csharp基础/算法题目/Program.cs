@@ -52,11 +52,16 @@
                                 // 从当前位置后一位开始遍历
                                 for (int j = i + 1; j < arr.Length; j++)
                                 {
-                                    if (arr[j] > tempMax)
+                                    for (int k = i + 1; k < arr.Length; k++)
                                     {
-                                        tempMax = arr[j];
-                                        subLength++;
+                                        // 找到最近的最大值
+                                        if (arr[k] > tempMax)
+                                        {
+                                            tempMax = arr[k];
+                                            subLength++;
+                                        }
                                     }
+
                                 }
                                 if (subLength > maxLength)
                                 {
