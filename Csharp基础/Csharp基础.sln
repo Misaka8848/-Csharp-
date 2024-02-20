@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "二维数组", "二维数�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "二维数组习题", "二维数组习题\二维数组习题.csproj", "{B9C1C42B-08A7-41B1-8E18-7F56C41976F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "交错数组", "交错数组\交错数组.csproj", "{7C435860-E543-4C1B-B0D1-A15EB835DCFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{B9C1C42B-08A7-41B1-8E18-7F56C41976F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9C1C42B-08A7-41B1-8E18-7F56C41976F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9C1C42B-08A7-41B1-8E18-7F56C41976F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C435860-E543-4C1B-B0D1-A15EB835DCFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C435860-E543-4C1B-B0D1-A15EB835DCFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C435860-E543-4C1B-B0D1-A15EB835DCFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C435860-E543-4C1B-B0D1-A15EB835DCFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

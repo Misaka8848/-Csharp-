@@ -165,7 +165,7 @@
                             int[,] arr = new int[M, N];
                             int c = 0; // 获取1的数目
                             int c2 = 0;
-                            //生成矩阵
+                            //生成矩阵 同时获取1的数目
                             for (int i = 0; i < arr.GetLength(0); i++)
                             {
                                 for (int j = 0; j < arr.GetLength(1); j++)
@@ -274,10 +274,50 @@
                         }
 
                         break;
-                    case 6:
+                    case 15:
                         {
-                            #region 习题6
+                            #region 习题5改
+                            int M = 6, N = 7; // 定义数组的尺寸
+                            int[,] arr = new int[M, N];
+                            bool[] rowsToChange = new bool[M];
+                            bool[] colsToChange = new bool[N];
 
+
+                            // 随机初始化数组，并标记含1的行和列
+                            for (int i = 0; i < M; i++)
+                            {
+                                for (int j = 0; j < N; j++)
+                                {
+                                    arr[i, j] = rand.Next(2);
+                                    if (arr[i, j] == 1)
+                                    {
+                                        rowsToChange[i] = true;
+                                        colsToChange[j] = true;
+                                    }
+                                }
+                            }
+
+                            // 根据标记的行和列更新数组
+                            for (int i = 0; i < M; i++)
+                            {
+                                for (int j = 0; j < N; j++)
+                                {
+                                    if (rowsToChange[i] || colsToChange[j])
+                                    {
+                                        arr[i, j] = 1;
+                                    }
+                                }
+                            }
+
+                            // 打印更新后的数组
+                            for (int i = 0; i < M; i++)
+                            {
+                                for (int j = 0; j < N; j++)
+                                {
+                                    Console.Write(arr[i, j] + " ");
+                                }
+                                Console.WriteLine();
+                            }
                             #endregion
                         }
 
