@@ -13,19 +13,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "数组习题", "数组习�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "习题模板", "习题模板\习题模板.csproj", "{FFA71FF3-BABF-47EF-B9F8-A0F0E49E8975}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "二维数组", "二维数组\二维数组.csproj", "{CD455218-1F79-4B54-8C85-0E32358D3996}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "二维数组", "二维数组\二维数组.csproj", "{CD455218-1F79-4B54-8C85-0E32358D3996}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "二维数组习题", "二维数组习题\二维数组习题.csproj", "{B9C1C42B-08A7-41B1-8E18-7F56C41976F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "二维数组习题", "二维数组习题\二维数组习题.csproj", "{B9C1C42B-08A7-41B1-8E18-7F56C41976F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "交错数组", "交错数组\交错数组.csproj", "{7C435860-E543-4C1B-B0D1-A15EB835DCFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "交错数组", "交错数组\交错数组.csproj", "{7C435860-E543-4C1B-B0D1-A15EB835DCFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "算法题目", "算法题目\算法题目.csproj", "{5F56E541-83D7-43CC-9CC6-D329DE9070B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "算法题目", "算法题目\算法题目.csproj", "{5F56E541-83D7-43CC-9CC6-D329DE9070B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "字符串String", "字符串String\字符串String.csproj", "{759FEE66-ED4D-49B1-A030-135CEB44FEB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "字符串String", "字符串String\字符串String.csproj", "{759FEE66-ED4D-49B1-A030-135CEB44FEB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "函数", "函数\函数.csproj", "{25E8B9BE-3E4B-4B9A-90A4-B801F975C978}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "函数", "函数\函数.csproj", "{25E8B9BE-3E4B-4B9A-90A4-B801F975C978}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "函数练习", "函数练习\函数练习.csproj", "{29081CAD-CADC-4D14-AFD9-5F3DF322C946}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "函数练习", "函数练习\函数练习.csproj", "{29081CAD-CADC-4D14-AFD9-5F3DF322C946}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ref和out", "ref和out\ref和out.csproj", "{60B01B88-C38F-42E7-B01E-8C9E07433427}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ref和out习题", "ref和out习题\ref和out习题.csproj", "{4AC98537-D50F-45E5-A5B6-D5A58E11EF25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "变长参数和默认值", "变长参数和默认值\变长参数和默认值.csproj", "{FB6EC0BF-BE67-4B3E-A710-E22DFA63BD4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +87,18 @@ Global
 		{29081CAD-CADC-4D14-AFD9-5F3DF322C946}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29081CAD-CADC-4D14-AFD9-5F3DF322C946}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29081CAD-CADC-4D14-AFD9-5F3DF322C946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60B01B88-C38F-42E7-B01E-8C9E07433427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B01B88-C38F-42E7-B01E-8C9E07433427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B01B88-C38F-42E7-B01E-8C9E07433427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B01B88-C38F-42E7-B01E-8C9E07433427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AC98537-D50F-45E5-A5B6-D5A58E11EF25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AC98537-D50F-45E5-A5B6-D5A58E11EF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AC98537-D50F-45E5-A5B6-D5A58E11EF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AC98537-D50F-45E5-A5B6-D5A58E11EF25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB6EC0BF-BE67-4B3E-A710-E22DFA63BD4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB6EC0BF-BE67-4B3E-A710-E22DFA63BD4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB6EC0BF-BE67-4B3E-A710-E22DFA63BD4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB6EC0BF-BE67-4B3E-A710-E22DFA63BD4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
