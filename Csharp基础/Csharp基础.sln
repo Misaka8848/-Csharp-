@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ref和out习题", "ref和ou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "变长参数和默认值", "变长参数和默认值\变长参数和默认值.csproj", "{FB6EC0BF-BE67-4B3E-A710-E22DFA63BD4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "迭代函数", "迭代函数\迭代函数.csproj", "{FCEB3299-BB2E-4B42-BB71-ABEF248C646A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{FB6EC0BF-BE67-4B3E-A710-E22DFA63BD4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB6EC0BF-BE67-4B3E-A710-E22DFA63BD4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB6EC0BF-BE67-4B3E-A710-E22DFA63BD4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCEB3299-BB2E-4B42-BB71-ABEF248C646A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCEB3299-BB2E-4B42-BB71-ABEF248C646A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCEB3299-BB2E-4B42-BB71-ABEF248C646A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCEB3299-BB2E-4B42-BB71-ABEF248C646A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

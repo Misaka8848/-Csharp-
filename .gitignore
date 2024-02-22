@@ -1,0 +1,68 @@
+# 忽略Visual Studio临时文件和编译输出
+[Bb]in/
+[Oo]bj/
+[Ll]ogs/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa]pp[Pp]ublish/
+
+# 忽略VS代码编辑器的设置和用户文件
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.usertasks
+
+# 忽略NuGet包文件
+packages/
+*.nupkg
+# 忽略项目根目录下的packages文件夹，NuGet还原会重新获取这些包
+!**/packages/build/
+
+# 忽略ReSharper目录和文件
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# 忽略TeamCity目录和文件
+_TeamCity*
+
+# 忽略Windows图像和媒体文件
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# 忽略Docker忽略文件
+dockerignore
+# 忽略Visual Studio Code目录和文件
+.vscode/
+
+# 忽略常见的MacOS文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 忽略Windows目录文件
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# 忽略一般性的临时文件
+*.log
+*.tmp
+*.temp
+*.tlog
+*.cache
+*.bak
+*.swp
+*.end
+
+# 忽略特定语言和框架的文件
+# 例如，如果使用Node.js，可以添加
+node_modules/
+
+# 忽略Visual Studio Code扩展设置
+.vscode/
