@@ -37,10 +37,10 @@
             }
             return ZhuGan(d - 1) / 2;
         }
-        static int Test5(int a = 200)
+        static int Test5(int a = 0)
         {
             Console.Write(a + " ");
-            return a == 1 ? 1 : Test5(a - 1);
+            return a >= 200 ? 200 : Test5(a + 1);
         }
         static void Main(string[] args)
         {
