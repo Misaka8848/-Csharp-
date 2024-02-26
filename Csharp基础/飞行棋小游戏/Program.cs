@@ -265,14 +265,14 @@
         static void ClearMsgLine()
         {
             string clear = " ";
-            for (int i = 1; i < Console.WindowWidth - 4; i++)
+            for (int i = 2; i < Console.WindowWidth - 4; i++)
             {
                 clear += " ";
             }
             for (int i = megBottumY + 1; i < sysMegUpperY; i++)
             {
-                Console.SetCursorPosition(leftX, i);
-                Console.Write("clear");
+                Console.SetCursorPosition(leftX + 2, i);
+                Console.Write(clear);
             }
         }
         /// <summary>
@@ -295,6 +295,13 @@
                 player.DrawPlayer(map);
                 cpu.DrawPlayer(map);
             }
+        }
+        static void ClearPlayer(Player player, Player cpu, Map map)
+        {
+            Grid gridP = map.MapArr[player.IndexInMapArr];
+            Grid gridC = map.MapArr[cpu.IndexInMapArr];
+            gridP.DrawGrid();
+            gridC.DrawGrid();
         }
 
         static void DrawUi()
@@ -346,70 +353,41 @@
         /// <summary>
         /// 根据格子改变位置
         /// </summary>
-        /// <param name="posPlayer"></param>
+        /// <param name="pcpu.IndexInMapArr"></param>
         /// <param name="map"></param>
         /// <param name="gameOver"></param>
         /// <param name="isNormal"></param>
         /// <param name="isChangePos"></param>
-        static void ChangePosBySpecialGrid(ref int posPlayer, Map map, ref bool gameOver, out bool isNormal, out bool isChangePos)
-        {
-            isNormal = false;
-            isChangePos = false;
-            Random rand = new Random();
-            int r;
-            Grid grid = map.MapArr[posPlayer];
-            switch (grid.GridType)
-            {
-                case E_GridType.NormalGrid:
-                    isNormal = true;
-                    break;
-                case E_GridType.BoomGrid:
-                    posPlayer += 5;
-                    break;
-                case E_GridType.PauseGrid:
-                    break;
-                case E_GridType.TunnelGrid:
-                    r = rand.Next(1, 4);
-                    switch (r)
-                    {
-                        case 1:
-                            posPlayer += 5; break;
-                        case 2: break;
-                        case 3:
-                            isChangePos = true; break;
 
-                    }
-
-                    break;
-
-            }
-        }
 
         /// <summary>
         /// 根据骰子结果改变位置
         /// </summary>
         /// <param name="r"></param>
-        static void ChangePos(int r, ref int pos, Map map, out bool isChangePos, out bool gameOver)
+        static void ChangePos(int r, ref int pos, Map map, out bool isChangePos, out bool gameOver, out Grid grid)
         {
+            bool isPause = false;
             bool isNormal = false;
             isChangePos = false;
             gameOver = false;
+            Random rand = new Random();
             pos += r;
             while (true)
             {
 
-                Random rand = new Random();
 
-                Grid grid = map.MapArr[pos];
+
+                grid = map.MapArr[pos];
                 switch (grid.GridType)
                 {
                     case E_GridType.NormalGrid:
                         isNormal = true;
                         break;
                     case E_GridType.BoomGrid:
-                        pos += 5;
+                        pos -= 5;
                         break;
                     case E_GridType.PauseGrid:
+                        isPause = true;
                         break;
                     case E_GridType.TunnelGrid:
                         r = rand.Next(1, 4);
@@ -417,7 +395,7 @@
                         {
                             case 1:
                                 pos += 5; break;
-                            case 2: break;
+                            case 2: isPause = true; break;
                             case 3:
                                 isChangePos = true; break;
 
@@ -426,19 +404,66 @@
                         break;
                 }
                 //新位置是否遇到什么 如果到结束或者普通格子或者换位置就退出循环
-                if (gameOver || isNormal || isChangePos)
+                if (gameOver || isNormal || isChangePos || isPause)
                 {
                     break;
                 }
             }
         }
 
-        static void promptAndWait()
+        /// <summary>
+        /// 处理游戏扔色子过程中的打印输出
+        /// </summary>
+        /// <param name="gridType"></param>
+        /// <param name="playerType"></param>
+        /// <param name="r"></param>
+        static void promptAndWait(E_GridType gridType, E_PlayerType playerType, int r)
         {
+            ClearMsgLine();
+            string subject = playerType == E_PlayerType.Plyaer ? "你" : "电脑";
+            string oppose = playerType == E_PlayerType.Plyaer ? "电脑" : "你自己";
+            if (playerType == E_PlayerType.Plyaer)
+            {
+                Console.ForegroundColor = ConsoleColor.Blue;
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Magenta;
+            }
+            Console.SetCursorPosition(2, megBottumY + 1);
+            Console.Write(subject + $"扔出的点数为: {r}");
+            Console.SetCursorPosition(2, megBottumY + 2);
+            switch (gridType)
+            {
+                case E_GridType.NormalGrid:
+
+                    Console.Write(subject + "到达一个安全位置");
+
+                    break;
+                case E_GridType.BoomGrid:
+                    Console.Write(subject + "踩到炸弹了,后退5格");
+                    break;
+                case E_GridType.PauseGrid:
+                    Console.Write(subject + "踩到陷阱了,暂停一回合");
+                    break;
+                case E_GridType.TunnelGrid:
+                    Console.Write(subject + "进入时空隧道了");
+                    break;
+
+            }
+            Console.SetCursorPosition(2, megBottumY + 3);
+            Console.Write("按下任意键, 让" + oppose + "扔骰子");
+
+            Console.ReadKey(true);
+        }
+        static void promptAndWait(string msg)
+        {
+
             ClearMsgLine();
             Console.SetCursorPosition(2, megBottumY + 1);
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.Write("请按任意键扔骰子以开始游戏");
+            Console.Write(msg);
+
             Console.ReadKey(true);
         }
         // 场景
@@ -486,23 +511,34 @@
             // 初始化
             Map map = new Map();
             Random rand = new Random();
+
+            // 画地图
             map.DrawMap();
+
+            Player player = new Player(0, E_PlayerType.Plyaer);
+            Player cpu = new Player(0, E_PlayerType.Cpu);
             int r = rand.Next(1, 7);//骰子
-            int posPlayer = 0, posCpu = 0;
             bool gameOver = false;
             bool isNormal, isChangePos;
             int temp;
             char userInput = '\0';
+            Grid grid;
+            DrawPlayer(player, cpu, map);
+            //提示玩家扔 等待输入
+            promptAndWait("任意键扔色子开始游戏");
+
             while (true)
             {
-                userInput = Console.ReadKey(true).KeyChar;
-                //提示玩家扔 等待输入
-                promptAndWait();
                 //玩家扔骰子
                 r = rand.Next(1, 7);
+                //擦除旧玩家图标
+                ClearPlayer(player, cpu, map);
                 //改变位置
-                ChangePos(r, ref posPlayer, map, out isChangePos, out gameOver);
-
+                ChangePos(r, ref player.IndexInMapArr, map, out isChangePos, out gameOver, out grid);
+                //画玩家
+                DrawPlayer(player, cpu, map);
+                //提示和等待输入
+                promptAndWait(grid.GridType, E_PlayerType.Plyaer, r);
                 if (gameOver)
                 {
                     // 提示结束 等待输入
@@ -511,13 +547,21 @@
                 else if (isChangePos)
                 {
                     //交换位置
-                    temp = posCpu;
-                    posCpu = posPlayer;
-                    posPlayer = temp;
+                    temp = cpu.IndexInMapArr;
+                    cpu.IndexInMapArr = player.IndexInMapArr;
+                    cpu.IndexInMapArr = temp;
                 }
                 // ai扔色子
                 r = rand.Next(1, 7);
-                ChangePos(r, ref posCpu, map, out isChangePos, out gameOver);
+                ClearPlayer(player, cpu, map);
+
+
+                //改变位置
+                ChangePos(r, ref cpu.IndexInMapArr, map, out isChangePos, out gameOver, out grid);
+                //画ai
+                DrawPlayer(player, cpu, map);
+                //提示和等待输入
+                promptAndWait(grid.GridType, E_PlayerType.Cpu, r);
                 if (gameOver)
                 {
                     // 提示结束 等待输入
@@ -526,9 +570,9 @@
                 else if (isChangePos)
                 {
                     //交换位置
-                    temp = posCpu;
-                    posCpu = posPlayer;
-                    posPlayer = temp;
+                    temp = cpu.IndexInMapArr;
+                    cpu.IndexInMapArr = player.IndexInMapArr;
+                    cpu.IndexInMapArr = temp;
                 }
 
                 //遇到逻辑 改变位置
