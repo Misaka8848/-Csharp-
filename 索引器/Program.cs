@@ -1,25 +1,29 @@
 ﻿namespace 索引器
 {
-    class Team
+    public class Person
     {
-        string[] arr = new string[10];
-        public string this[int index]
+        public string Name
+        { get; set; }
+
+    }
+    public class Team
+    {
+        private Person[] members = new Person[5];
+
+        public Person this[int index]
         {
-            get
-            {
-                return arr[index];
-            }
-            set
-            {
-                arr[index] = value;
-            }
+            get { return members[index]; }
+            set { members[index] = value; }
         }
     }
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Team team = new Team();
+
+            team[0] = new Person() { Name = "Alice" };
+            Console.WriteLine(team[0].Name);
         }
     }
 }
