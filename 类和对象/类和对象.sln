@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "类和对象", "类和对�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "成员属性", "..\成员属性\成员属性.csproj", "{58440775-1B41-4583-A8FF-58A7A47431FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "索引器", "..\索引器\索引器.csproj", "{FE933972-BE98-493C-AEA8-2B829C8300AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{58440775-1B41-4583-A8FF-58A7A47431FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58440775-1B41-4583-A8FF-58A7A47431FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58440775-1B41-4583-A8FF-58A7A47431FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE933972-BE98-493C-AEA8-2B829C8300AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE933972-BE98-493C-AEA8-2B829C8300AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE933972-BE98-493C-AEA8-2B829C8300AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE933972-BE98-493C-AEA8-2B829C8300AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
